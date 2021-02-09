@@ -1,11 +1,11 @@
 {
-	"name": "lorem-picsum-photos-snippets",
-	"displayName": "Lorem Picsum photos snippets",
-	"description": "Visual studio code snippets extention for Lorem Picsum photos.",
-	"version": "1.0.26",
-	"publisher": "huang-an-sheng",
+	"name": "lorem-picsum",
+	"displayName": "Lorem Picsum",
+	"description": "Visual studio code snippets extention for Lorem Picsum photos. Based on https://marketplace.visualstudio.com/items?itemName=huang-an-sheng.lorem-picsum-photos-snippets",
+	"version": "1.0.0",
+	"publisher": "ZaferAYAN",
 	"author": {
-		"name": "Huang An Sheng"
+		"name": "Zafer AYAN"
 	},
 	"keywords": [
 		"snippets",
@@ -15,9 +15,9 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/andy19910102/lorem-picsum-photos-snippets"
+		"url": "https://github.com/ozcanzaferayan/lorem-picsum-vscode-extension"
 	},
-	"icon": "icon.png",
+	"icon": "icon_new.png",
 	"engines": {
 		"vscode": "^1.34.0"
 	},
@@ -58,8 +58,8 @@
 		]
 	},
 	"__metadata": {
-		"id": "c9622491-914b-447e-a390-2f24938a4eb4",
-		"publisherId": "dd5c8b0d-37c8-4a8a-8abe-78fb4593b737",
-		"publisherDisplayName": "Huang An Sheng"
+		"id": "25036336-d2f5-4bd2-a3c6-21f20be68a3f",
+		"publisherDisplayName": "Zafer AYAN",
+		"publisherId": "949ef023-188f-4115-a8b2-39f28daced22"
 	}
 }

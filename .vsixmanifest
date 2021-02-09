@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="lorem-picsum-photos-snippets" Version="1.0.26" Publisher="Zafer AYAN"/>
+    <Identity Language="en-US" Id="lorem-picsum" Version="1.0.26" Publisher="Zafer AYAN"/>
     <DisplayName>Lorem Picsum</DisplayName>
-    <Description xml:space="preserve">Visual studio code snippets extention for Lorem Picsum photos.</Description>
+    <Description xml:space="preserve">Visual studio code snippets extention for Lorem Picsum photos. Based on https://marketplace.visualstudio.com/items?itemName=huang-an-sheng.lorem-picsum-photos-snippets</Description>
     <Tags>snippets,lorem,picsum,image,snippet</Tags>
     <Categories>Snippets</Categories>
     <GalleryFlags>Public</GalleryFlags>
