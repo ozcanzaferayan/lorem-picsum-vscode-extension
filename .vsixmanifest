@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="lorem-picsum-photos-snippets" Version="1.0.26" Publisher="huang-an-sheng"/>
-    <DisplayName>Lorem Picsum photos snippets</DisplayName>
+    <Identity Language="en-US" Id="lorem-picsum-photos-snippets" Version="1.0.26" Publisher="Zafer AYAN"/>
+    <DisplayName>Lorem Picsum</DisplayName>
     <Description xml:space="preserve">Visual studio code snippets extention for Lorem Picsum photos.</Description>
     <Tags>snippets,lorem,picsum,image,snippet</Tags>
     <Categories>Snippets</Categories>
@@ -14,10 +14,10 @@
       <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
       <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
       
-        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/andy19910102/lorem-picsum-photos-snippets" />
-        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/andy19910102/lorem-picsum-photos-snippets" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/ozcanzaferayan/lorem-picsum-vscode-extension" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/ozcanzaferayan/lorem-picsum-vscode-extension" />
         
-          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/andy19910102/lorem-picsum-photos-snippets" />
+          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/ozcanzaferayan/lorem-picsum-vscode-extension" />
         
       
       
@@ -29,7 +29,7 @@
       
     </Properties>
     
-    <Icon>extension/icon.png</Icon>
+    <Icon>extension/icon_new.png</Icon>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
