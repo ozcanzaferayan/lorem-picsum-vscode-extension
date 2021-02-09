@@ -2,7 +2,7 @@
 	"name": "lorem-picsum",
 	"displayName": "Lorem Picsum",
 	"description": "Visual studio code snippets extention for Lorem Picsum photos. Based on https://marketplace.visualstudio.com/items?itemName=huang-an-sheng.lorem-picsum-photos-snippets",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "ZaferAYAN",
 	"author": {
 		"name": "Zafer AYAN"
