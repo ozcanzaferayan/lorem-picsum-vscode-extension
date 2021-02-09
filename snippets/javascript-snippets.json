@@ -1,0 +1,43 @@
+{
+    "Get image list using XHRHttpRequest": {
+        "prefix": "picsum.xhrHttpRequest",
+        "body": [
+            "var picsumXHR = new XMLHttpRequest();",
+            "picsumXHR.open('GET', 'https://picsum.photos/v2/list?page=${1:1}&limit=${2:50}');",
+            "picsumXHR.onload = function () {",
+            "  if (picsumXHR.status === 200) {",
+            "    var picsumImages = JSON.parse(picsumXHR.response);",
+            "    // Handling the images here by using picsumImages",
+            "  }",
+            "};",
+            "picsumXHR.send();"
+        ],
+        "description": "Get image list using XHRHttpRequest"
+    },
+    "Get image list using Axios HTTP request": {
+        "prefix": "picsum.axiosHttpRequest",
+        "body": [
+            "axios.get('https://picsum.photos/v2/list?page=${1:1}&limit=${2:50}')",
+            "    .then(function (response) {",
+            "        var picsumImages = response.data;",
+            "        // Handling the images here by using picsumImages",
+            "    })",
+            "    .catch(function (err) {",
+            "        // Error happened",
+            "    });"
+        ],
+        "description": "Get image list using Axios request"
+    },
+    "Get image list using jQuery Ajax request": {
+        "prefix": "picsum.ajaxRequest",
+        "body": [
+            "$.ajax({",
+            "    url: 'https://picsum.photos/v2/list?page=${1:1}&limit=${2:50}'",
+            "})",
+            "    .done(function (picsumImages) {",
+            "        // Handling the images here by using picsumImages",
+            "    });"
+        ],
+        "description": "Get image list using jQuery Ajax request"
+    }
+}

@@ -1,0 +1,506 @@
+{
+    "Lorem Picsum with specific image ID": {
+        "prefix": "picsum",
+        "body": [
+            "<img src=\"https://picsum.photos/id/${1:684}/${2:600}/${3:400}\" alt=\"\">"
+        ],
+        "description": "Get a image with specific ID, width and height."
+    },
+    "Lorem Picsum square image": {
+        "prefix": "picsum-square",
+        "body": [
+            "<img src=\"https://picsum.photos/id/${1:684}/${2:600}\" alt=\"\">"
+        ],
+        "description": "Get a square image."
+    },
+    "Lorem Picsum with Facebook og-image size": {
+        "prefix": "picsum-facebook-og-image",
+        "body": [
+            "<meta property=\"og:image\" content=\"https://picsum.photos/id/${1:684}/1200/630\" />"
+        ],
+        "description": "Get a meta tag with image in Facebook Open Graph size"
+    },
+    "Lorem Picsum with grayscale effect": {
+        "prefix": "picsum-grayscale",
+        "body": [
+            "<img src=\"https://picsum.photos/id/${1:684}/${2:600}/${3:400}?grayscale\" alt=\"\">"
+        ],
+        "description": "Get a image with grayscale effect"
+    },
+    "Lorem Picsum with blur effect": {
+        "prefix": "picsum-blur",
+        "body": [
+            "<img src=\"https://picsum.photos/id/${1:684}/${2:600}/${3:400}?blur=${4:5}\" alt=\"\">"
+        ],
+        "description": "Get a image with blur effect"
+    },
+    "Lorem Picsum with grayscale and blur effect": {
+        "prefix": "picsum-grayscale-blur",
+        "body": [
+            "<img src=\"https://picsum.photos/id/${1:684}/${2:600}/${3:400}?grayscale&blur=5\" alt=\"\">"
+        ],
+        "description": "Get a image with grayscale and blur effect"
+    },
+    "Lorem Picsum mountain-1 image": {
+        "prefix": "picsum-mountain-1",
+        "body": [
+            "<img src=\"https://picsum.photos/id/684/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a mountain image"
+    },
+    "Lorem Picsum mountain-2 image": {
+        "prefix": "picsum-mountain-2",
+        "body": [
+            "<img src=\"https://picsum.photos/id/231/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a mountain image"
+    },
+    "Lorem Picsum mountain-3 image": {
+        "prefix": "picsum-mountain-3",
+        "body": [
+            "<img src=\"https://picsum.photos/id/235/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a mountain image"
+    },
+    "Lorem Picsum mountain-4 image": {
+        "prefix": "picsum-mountain-4",
+        "body": [
+            "<img src=\"https://picsum.photos/id/377/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a mountain image"
+    },
+    "Lorem Picsum mountain-5 image": {
+        "prefix": "picsum-mountain-5",
+        "body": [
+            "<img src=\"https://picsum.photos/id/393/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a mountain image"
+    },
+    "Lorem Picsum mountain-6 image": {
+        "prefix": "picsum-mountain-6",
+        "body": [
+            "<img src=\"https://picsum.photos/id/906/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a mountain image"
+    },
+    "Lorem Picsum mountain-7 image": {
+        "prefix": "picsum-mountain-7",
+        "body": [
+            "<img src=\"https://picsum.photos/id/908/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a mountain image"
+    },
+    "Lorem Picsum mountain-8 image": {
+        "prefix": "picsum-mountain-8",
+        "body": [
+            "<img src=\"https://picsum.photos/id/961/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a mountain image"
+    },
+    "Lorem Picsum mountain-9 image": {
+        "prefix": "picsum-mountain-9",
+        "body": [
+            "<img src=\"https://picsum.photos/id/327/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a mountain image"
+    },
+    "Lorem Picsum valley image": {
+        "prefix": "picsum-valley",
+        "body": [
+            "<img src=\"https://picsum.photos/id/564/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a valley image"
+    },
+    "Lorem Picsum bear image": {
+        "prefix": "picsum-bear",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1020/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a bear image"
+    },
+    "Lorem Picsum adorable dog image": {
+        "prefix": "picsum-adorable-dog",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1025/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a adorable dog image"
+    },
+    "Lorem Picsum black dog image": {
+        "prefix": "picsum-black-dog",
+        "body": [
+            "<img src=\"https://picsum.photos/id/237/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a black dog image"
+    },
+    "Lorem Picsum peaceful lake image": {
+        "prefix": "picsum-peaceful-lake",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1038/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a peaceful lake image"
+    },
+    "Lorem Picsum city view image": {
+        "prefix": "picsum-city-view",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1029/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a city view image"
+    },
+    "Lorem Picsum escalator image": {
+        "prefix": "picsum-escalator",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1033/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a escalator image"
+    },
+    "Lorem Picsum sports venue image": {
+        "prefix": "picsum-sport-venue",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1058/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a sports venue image"
+    },
+    "Lorem Picsum city sunset image": {
+        "prefix": "picsum-city-sunset",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1067/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a city sunset image"
+    },
+    "Lorem Picsum vase image": {
+        "prefix": "picsum-vase",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1068/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a vase image"
+    },
+    "Lorem Picsum wheat image": {
+        "prefix": "picsum-wheat",
+        "body": [
+            "<img src=\"https://picsum.photos/id/112/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a wheat image"
+    },
+    "Lorem Picsum traveler image": {
+        "prefix": "picsum-traveler",
+        "body": [
+            "<img src=\"https://picsum.photos/id/177/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a traveler image"
+    },
+    "Lorem Picsum deer image": {
+        "prefix": "picsum-deer",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1003/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a deer image"
+    },
+    "Lorem Picsum castle image": {
+        "prefix": "picsum-castle",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1040/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a castle image"
+    },
+    "Lorem Picsum strawberry image": {
+        "prefix": "picsum-strawberry",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1080/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a strawberry image"
+    },
+    "Lorem Picsum hot air ballon-1 image": {
+        "prefix": "picsum-hot-air-balloon-1",
+        "body": [
+            "<img src=\"https://picsum.photos/id/174/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a hot air balloon image"
+    },
+    "Lorem Picsum hot air ballon-2 image": {
+        "prefix": "picsum-hot-air-balloon-2",
+        "body": [
+            "<img src=\"https://picsum.photos/id/401/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a hot air balloon image"
+    },
+    "Lorem Picsum dew image": {
+        "prefix": "picsum-dew",
+        "body": [
+            "<img src=\"https://picsum.photos/id/189/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a dew image"
+    },
+    "Lorem Picsum camera image": {
+        "prefix": "picsum-camera",
+        "body": [
+            "<img src=\"https://picsum.photos/id/250/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a camera image"
+    },
+    "Lorem Picsum Eiffel Tower image": {
+        "prefix": "picsum-eiffel-tower",
+        "body": [
+            "<img src=\"https://picsum.photos/id/318/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a Eiffel Tower image"
+    },
+    "Lorem Picsum building-1 image": {
+        "prefix": "picsum-building-1",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1076/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a building image"
+    },
+    "Lorem Picsum building-2 image": {
+        "prefix": "picsum-building-2",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1081/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a building image"
+    },
+    "Lorem Picsum building-3 image": {
+        "prefix": "picsum-building-3",
+        "body": [
+            "<img src=\"https://picsum.photos/id/743/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a building image"
+    },
+    "Lorem Picsum building-4 image": {
+        "prefix": "picsum-building-4",
+        "body": [
+            "<img src=\"https://picsum.photos/id/870/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a building image"
+    },
+    "Lorem Picsum building-5 image": {
+        "prefix": "picsum-building-5",
+        "body": [
+            "<img src=\"https://picsum.photos/id/945/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a building image"
+    },
+    "Lorem Picsum building-6 image": {
+        "prefix": "picsum-building-6",
+        "body": [
+            "<img src=\"https://picsum.photos/id/949/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a building image"
+    },
+    "Lorem Picsum building-7 image": {
+        "prefix": "picsum-building-7",
+        "body": [
+            "<img src=\"https://picsum.photos/id/972/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a building image"
+    },
+    "Lorem Picsum road-1 image": {
+        "prefix": "picsum-road-1",
+        "body": [
+            "<img src=\"https://picsum.photos/id/182/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a road image"
+    },
+    "Lorem Picsum road-2 image": {
+        "prefix": "picsum-road-2",
+        "body": [
+            "<img src=\"https://picsum.photos/id/191/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a road image"
+    },
+    "Lorem Picsum road-3 image": {
+        "prefix": "picsum-road-3",
+        "body": [
+            "<img src=\"https://picsum.photos/id/220/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a road image"
+    },
+    "Lorem Picsum road-4 image": {
+        "prefix": "picsum-road-4",
+        "body": [
+            "<img src=\"https://picsum.photos/id/242/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a road image"
+    },
+    "Lorem Picsum road-5 image": {
+        "prefix": "picsum-road-5",
+        "body": [
+            "<img src=\"https://picsum.photos/id/278/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a road image"
+    },
+    "Lorem Picsum road-6 image": {
+        "prefix": "picsum-road-6",
+        "body": [
+            "<img src=\"https://picsum.photos/id/314/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a road image"
+    },
+    "Lorem Picsum people-1 image": {
+        "prefix": "picsum-people-1",
+        "body": [
+            "<img src=\"https://picsum.photos/id/548/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a people image"
+    },
+    "Lorem Picsum people-2 image": {
+        "prefix": "picsum-people-2",
+        "body": [
+            "<img src=\"https://picsum.photos/id/550/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a people image"
+    },
+    "Lorem Picsum people-3 image": {
+        "prefix": "picsum-people-3",
+        "body": [
+            "<img src=\"https://picsum.photos/id/602/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a people image"
+    },
+    "Lorem Picsum people-4 image": {
+        "prefix": "picsum-people-4",
+        "body": [
+            "<img src=\"https://picsum.photos/id/633/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a people image"
+    },
+    "Lorem Picsum people-5 image": {
+        "prefix": "picsum-people-5",
+        "body": [
+            "<img src=\"https://picsum.photos/id/64/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a people image"
+    },
+    "Lorem Picsum people-6 image": {
+        "prefix": "picsum-people-6",
+        "body": [
+            "<img src=\"https://picsum.photos/id/660/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a people image"
+    },
+    "Lorem Picsum people-7 image": {
+        "prefix": "picsum-people-7",
+        "body": [
+            "<img src=\"https://picsum.photos/id/823/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a people image"
+    },
+    "Lorem Picsum people-8 image": {
+        "prefix": "picsum-people-8",
+        "body": [
+            "<img src=\"https://picsum.photos/id/832/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a people image"
+    },
+    "Lorem Picsum people-9 image": {
+        "prefix": "picsum-people-9",
+        "body": [
+            "<img src=\"https://picsum.photos/id/839/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a people image"
+    },
+    "Lorem Picsum people-10 image": {
+        "prefix": "picsum-people-10",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1011/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a people image"
+    },
+    "Lorem Picsum people-11 image": {
+        "prefix": "picsum-people-11",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1012/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a people image"
+    },
+    "Lorem Picsum people-12 image": {
+        "prefix": "picsum-people-12",
+        "body": [
+            "<img src=\"https://picsum.photos/id/334/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a people image"
+    },
+    "Lorem Picsum cafe-1 image": {
+        "prefix": "picsum-cafe-1",
+        "body": [
+            "<img src=\"https://picsum.photos/id/1060/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a cafe image"
+    },
+    "Lorem Picsum cafe-2 image": {
+        "prefix": "picsum-cafe-2",
+        "body": [
+            "<img src=\"https://picsum.photos/id/30/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a cafe image"
+    },
+    "Lorem Picsum cafe-3 image": {
+        "prefix": "picsum-cafe-3",
+        "body": [
+            "<img src=\"https://picsum.photos/id/42/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a cafe image"
+    },
+    "Lorem Picsum cafe-4 image": {
+        "prefix": "picsum-cafe-4",
+        "body": [
+            "<img src=\"https://picsum.photos/id/431/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a cafe image"
+    },
+    "Lorem Picsum boat-1 image": {
+        "prefix": "picsum-boat-1",
+        "body": [
+            "<img src=\"https://picsum.photos/id/598/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a boat image"
+    },
+    "Lorem Picsum boat-2 image": {
+        "prefix": "picsum-boat-2",
+        "body": [
+            "<img src=\"https://picsum.photos/id/642/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a boat image"
+    },
+    "Lorem Picsum boat-3 image": {
+        "prefix": "picsum-boat-3",
+        "body": [
+            "<img src=\"https://picsum.photos/id/211/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a boat image"
+    },
+    "Lorem Picsum vehicle-1 image": {
+        "prefix": "picsum-vehicle-1",
+        "body": [
+            "<img src=\"https://picsum.photos/id/514/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a vehicle image"
+    },
+    "Lorem Picsum vehicle-2 image": {
+        "prefix": "picsum-vehicle-2",
+        "body": [
+            "<img src=\"https://picsum.photos/id/605/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a vehicle image"
+    },
+    "Lorem Picsum vehicle-3 image": {
+        "prefix": "picsum-vehicle-3",
+        "body": [
+            "<img src=\"https://picsum.photos/id/655/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a vehicle image"
+    },
+    "Lorem Picsum vehicle-4 image": {
+        "prefix": "picsum-vehicle-4",
+        "body": [
+            "<img src=\"https://picsum.photos/id/670/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a vehicle image"
+    },
+    "Lorem Picsum vehicle-5 image": {
+        "prefix": "picsum-vehicle-5",
+        "body": [
+            "<img src=\"https://picsum.photos/id/111/${1:600}/${2:400}\" alt=\"\">"
+        ],
+        "description": "Get a vehicle image"
+    }
+}
